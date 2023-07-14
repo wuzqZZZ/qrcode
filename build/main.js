@@ -471,11 +471,11 @@ webpackEmptyAsyncContext.id = 209;
 
 var map = {
 	"../pages/dialog/dialog-changepassword/dialog-changepassword.module": [
-		914,
+		913,
 		98
 	],
 	"../pages/dialog/dialog-first/dialog-first.module": [
-		913,
+		914,
 		97
 	],
 	"../pages/dialog/dialog-pitaskitems/dialog-pitaskitems.module": [
@@ -495,15 +495,15 @@ var map = {
 		93
 	],
 	"../pages/lm/lmhome/lmhome.module": [
-		985,
+		983,
 		92
 	],
 	"../pages/lm/lmmain/lmaqgk/lmaqgk.module": [
-		983,
+		984,
 		12
 	],
 	"../pages/lm/lmmain/lmcbgk/lmcbgk.module": [
-		984,
+		985,
 		11
 	],
 	"../pages/lm/lmmain/lmchzl/lmchzl.module": [
@@ -523,11 +523,11 @@ var map = {
 		91
 	],
 	"../pages/lm/lmmain/lmzl/lmzl.module": [
-		987,
+		986,
 		7
 	],
 	"../pages/lm/lmmain/lmzlgk/lmzlgk.module": [
-		986,
+		987,
 		6
 	],
 	"../pages/lm/lmnews/lmnews.module": [
@@ -603,11 +603,11 @@ var map = {
 		76
 	],
 	"../pages/lm/lmtagfile/lmtagfilelist/lmtagfilelist.module": [
-		936,
+		937,
 		75
 	],
 	"../pages/lm/lmtagfile/lmtagfilematerial/lmtagfilematerial.module": [
-		937,
+		936,
 		74
 	],
 	"../pages/lm/lmtagfile/lmtagfileoverhaul/lmtagfileoverhaul.module": [
@@ -707,11 +707,11 @@ var map = {
 		52
 	],
 	"../pages/lm/lmtagsummary/lmtagsummary.module": [
-		954,
+		955,
 		51
 	],
 	"../pages/lm/lmtagsummary/lmtagsummaryinfo/lmtagsummaryinfo.module": [
-		955,
+		954,
 		50
 	],
 	"../pages/lm/lmtagsummaryspecialty/lmtagsummaryspecialty.module": [
@@ -755,11 +755,11 @@ var map = {
 		40
 	],
 	"../pages/lm/lmtagworkorder/lmtagworkorderinfo/components/lmtagworkorderplaninfo/lmtagworkorderplaninfo.module": [
-		962,
+		963,
 		39
 	],
 	"../pages/lm/lmtagworkorder/lmtagworkorderinfo/components/lmtagworkorderqualityinfo/lmtagworkorderqualityinfo.module": [
-		963,
+		962,
 		38
 	],
 	"../pages/lm/lmtagworkorder/lmtagworkorderinfo/lmtagworkorderinfo.module": [
@@ -831,11 +831,11 @@ var map = {
 		23
 	],
 	"../pages/system/signaturepad/signaturepad.module": [
-		976,
+		977,
 		14
 	],
 	"../pages/system/system.module": [
-		977,
+		976,
 		22
 	],
 	"../pages/system/userdialog/userdialog.module": [
@@ -3037,8 +3037,8 @@ var AppModule = /** @class */ (function () {
                     backButtonIcon: 'ios-arrow-back'
                 }, {
                     links: [
-                        { loadChildren: '../pages/dialog/dialog-first/dialog-first.module#DialogFirstPageModule', name: 'DialogFirstPage', segment: 'dialog-first', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/dialog/dialog-changepassword/dialog-changepassword.module#DialogChangepasswordPageModule', name: 'DialogChangepasswordPage', segment: 'dialog-changepassword', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/dialog/dialog-first/dialog-first.module#DialogFirstPageModule', name: 'DialogFirstPage', segment: 'dialog-first', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/dialog/dialog-pitaskitems/dialog-pitaskitems.module#DialogPitaskitemsPageModule', name: 'DialogPitaskitemsPage', segment: 'dialog-pitaskitems', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/dialog/leasset-dialog/leasset-dialog.module#LeassetDialogPageModule', name: 'LeassetDialogPage', segment: 'leasset-dialog', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/edit-application/edit-application.module#EditApplicationPageModule', name: 'EditApplicationPage', segment: 'edit-application', priority: 'low', defaultHistory: [] },
@@ -3060,8 +3060,8 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/lm/lmsite/lmsiteinfo/lmsiteinfo.module#LmsiteinfoPageModule', name: 'LmsiteinfoPage', segment: 'lmsiteinfo', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lm/lmtabs/lmtabs.module#LmtabsPageModule', name: 'LmtabsPage', segment: 'lmtabs', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lm/lmtagfile/lmtagfile.module#LmtagfilePageModule', name: 'LmtagfilePage', segment: 'lmtagfile', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/lm/lmtagfile/lmtagfilelist/lmtagfilelist.module#LmtagfilelistPageModule', name: 'LmtagfilelistPage', segment: 'lmtagfilelist', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lm/lmtagfile/lmtagfilematerial/lmtagfilematerial.module#LmtagfilematerialPageModule', name: 'LmtagfilematerialPage', segment: 'lmtagfilematerial', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/lm/lmtagfile/lmtagfilelist/lmtagfilelist.module#LmtagfilelistPageModule', name: 'LmtagfilelistPage', segment: 'lmtagfilelist', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lm/lmtagfile/lmtagfilesparelist/lmtagfilesparelist.module#LmtagfilesparelistPageModule', name: 'LmtagfilesparelistPage', segment: 'lmtagfilesparelist', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lm/lmtagfile/lmtagfiletechdatarecord/lmtagfiletechdatarecord.module#LmtagfiletechdatarecordPageModule', name: 'LmtagfiletechdatarecordPage', segment: 'lmtagfiletechdatarecord', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lm/lmtagfile/lmtagfiletechdatarecord/lmtagfiletechdatarecorddetail/lmtagfiletechdatarecorddetail.module#LmtagfiletechdatarecorddetailPageModule', name: 'LmtagfiletechdatarecorddetailPage', segment: 'lmtagfiletechdatarecorddetail', priority: 'low', defaultHistory: [] },
@@ -3078,16 +3078,16 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/lm/lmtagreportweek/lmtagreportweek.module#LmtagreportweekPageModule', name: 'LmtagreportweekPage', segment: 'lmtagreportweek', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lm/lmtagsiteposition/lmtagsiteposition.module#LmtagsitepositionPageModule', name: 'LmtagsitepositionPage', segment: 'lmtagsiteposition', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lm/lmtagsiteposition/lmtagsitepositioninfo/lmtagsitepositioninfo.module#LmtagsitepositioninfoPageModule', name: 'LmtagsitepositioninfoPage', segment: 'lmtagsitepositioninfo', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/lm/lmtagsummary/lmtagsummary.module#LmtagsummaryPageModule', name: 'LmtagsummaryPage', segment: 'lmtagsummary', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lm/lmtagsummary/lmtagsummaryinfo/lmtagsummaryinfo.module#LmtagsummaryinfoPageModule', name: 'LmtagsummaryinfoPage', segment: 'lmtagsummaryinfo', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/lm/lmtagsummary/lmtagsummary.module#LmtagsummaryPageModule', name: 'LmtagsummaryPage', segment: 'lmtagsummary', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lm/lmtagsummaryspecialty/lmtagsummaryspecialty.module#LmtagsummaryspecialtyPageModule', name: 'LmtagsummaryspecialtyPage', segment: 'lmtagsummaryspecialty', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lm/lmtagsummaryspecialty/lmtagsummaryspecialtyinfo/lmtagsummaryspecialtyinfo.module#LmtagsummaryspecialtyinfoPageModule', name: 'LmtagsummaryspecialtyinfoPage', segment: 'lmtagsummaryspecialtyinfo', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lm/lmtagsummarytech/lmtagsummarytech.module#LmtagsummarytechPageModule', name: 'LmtagsummarytechPage', segment: 'lmtagsummarytech', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lm/lmtagsummarytech/lmtagsummarytechinfo/lmtagsummarytechinfo.module#LmtagsummarytechinfoPageModule', name: 'LmtagsummarytechinfoPage', segment: 'lmtagsummarytechinfo', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lm/lmtagsupervisory/lmtagsupervisory.module#LmtagsupervisoryPageModule', name: 'LmtagsupervisoryPage', segment: 'lmtagsupervisory', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lm/lmtagworkorder/lmtagworkorderinfo/components/lmtagworkorderplanbaseinfo/lmtagworkorderplanbaseinfo.module#LmtagworkorderplanbaseinfoPageModule', name: 'LmtagworkorderplanbaseinfoPage', segment: 'lmtagworkorderplanbaseinfo', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/lm/lmtagworkorder/lmtagworkorderinfo/components/lmtagworkorderplaninfo/lmtagworkorderplaninfo.module#LmtagworkorderplaninfoPageModule', name: 'LmtagworkorderplaninfoPage', segment: 'lmtagworkorderplaninfo', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lm/lmtagworkorder/lmtagworkorderinfo/components/lmtagworkorderqualityinfo/lmtagworkorderqualityinfo.module#LmtagworkorderqualityinfoPageModule', name: 'LmtagworkorderqualityinfoPage', segment: 'lmtagworkorderqualityinfo', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/lm/lmtagworkorder/lmtagworkorderinfo/components/lmtagworkorderplaninfo/lmtagworkorderplaninfo.module#LmtagworkorderplaninfoPageModule', name: 'LmtagworkorderplaninfoPage', segment: 'lmtagworkorderplaninfo', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/me/aboutus/aboutus.module#AboutusPageModule', name: 'AboutusPage', segment: 'aboutus', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/me/annex/annex.module#AnnexPageModule', name: 'AnnexPage', segment: 'annex', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/me/changepassword/changepassword.module#ChangepasswordPageModule', name: 'ChangepasswordPage', segment: 'changepassword', priority: 'low', defaultHistory: [] },
@@ -3100,18 +3100,18 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/system/projectdialog/projectdialog.module#ProjectdialogPageModule', name: 'ProjectdialogPage', segment: 'projectdialog', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/system/reportview/reportview.module#ReportviewPageModule', name: 'ReportviewPage', segment: 'reportview', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/system/search/search.module#SearchPageModule', name: 'SearchPage', segment: 'search', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/system/signaturepad/signaturepad.module#SignaturepadPageModule', name: 'SignaturepadPage', segment: 'signaturepad', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/system/system.module#SystemPageModule', name: 'SystemPage', segment: 'system', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/system/signaturepad/signaturepad.module#SignaturepadPageModule', name: 'SignaturepadPage', segment: 'signaturepad', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/system/userdialog/userdialog.module#UserdialogPageModule', name: 'UserdialogPage', segment: 'userdialog', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/workflow/activiti/workflowroute/workflowroute.module#WorkflowroutePageModule', name: 'WorkflowroutePage', segment: 'workflowroute', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/workflow/activiti/workflowstart/workflowstart.module#WorkflowstartPageModule', name: 'WorkflowstartPage', segment: 'workflowstart', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/workflow/historylist/historylist.module#HistorylistPageModule', name: 'HistorylistPage', segment: 'historylist', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/workflow/workflow.module#WorkflowPageModule', name: 'WorkflowPage', segment: 'workflow', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/lm/lmhome/lmhome.module#ImhomePageModule', name: 'LmhomePage', segment: 'lmhome', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lm/lmmain/lmaqgk/lmaqgk.module#LmaqgkPageModule', name: 'LmaqgkPage', segment: 'lmaqgk', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lm/lmmain/lmcbgk/lmcbgk.module#LmcbgkPageModule', name: 'LmcbgkPage', segment: 'lmcbgk', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/lm/lmhome/lmhome.module#ImhomePageModule', name: 'LmhomePage', segment: 'lmhome', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/lm/lmmain/lmzlgk/lmzlgk.module#LmzlgkPageModule', name: 'LmzlgkPage', segment: 'lmzlgk', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lm/lmmain/lmzl/lmzl.module#LmzlPageModule', name: 'LmzlPage', segment: 'lmzl', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/lm/lmmain/lmzlgk/lmzlgk.module#LmzlgkPageModule', name: 'LmzlgkPage', segment: 'lmzlgk', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lm/lmpjifiles/lmpjifiles.module#LmpjifilesPageModule', name: 'LmpjifilesPage', segment: 'lmpjifiles', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lm/lmpjProject/lmpjProjectinfo/lmpjProjectinfo.module#LmpjProjectinfoPageModule', name: 'LmpjProjectinfoPage', segment: 'lmpjProjectinfo', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/lm/lmtagarchivemanage/lmtagarchivemanage.module#LmtagarchivemanagePageModule', name: 'LmtagarchivemanagePage', segment: 'lmtagarchivemanage', priority: 'low', defaultHistory: [] },

@@ -586,21 +586,21 @@ var ScannerPage = /** @class */ (function () {
         // }
     };
     ScannerPage.prototype.onScanFailure = function (error) {
-        // console.log(`onScanFailure  error => `, error)
-        alert(JSON.stringify(error));
+        console.log("onScanFailure  error => ", error);
     };
     ScannerPage.prototype.onScanStop = function () {
-        var _this = this;
-        this.qrCode.stop()
-            .then(function (ignore) {
-            // QR Code scanning is stopped.
-            console.log("QR Code scanning stopped.");
-            _this.qrCode.clear();
-        })
-            .catch(function (err) {
-            // Stop failed, handle it.
-            console.log("Unable to stop scanning.");
-        });
+        // this.qrCode.stop()
+        //   .then((ignore) => {
+        //     // QR Code scanning is stopped.
+        //     console.log("QR Code scanning stopped.");
+        //     this.qrCode.clear();
+        //   })
+        //   .catch((err) => {
+        //     // Stop failed, handle it.
+        //     console.log("Unable to stop scanning.");
+        //   });
+        this.qrCode.stop();
+        this.qrCode.destroy();
     };
     ScannerPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
