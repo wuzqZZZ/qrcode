@@ -1,5 +1,5 @@
-webpackJsonp([2],Array(942).concat([
-/* 942 */
+webpackJsonp([2],Array(943).concat([
+/* 943 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7,7 +7,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LmtagfilesparePageModule", function() { return LmtagfilesparePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__lmtagfilespare__ = __webpack_require__(1567);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__lmtagfilespare__ = __webpack_require__(1568);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -36,7 +36,6 @@ var LmtagfilesparePageModule = /** @class */ (function () {
 //# sourceMappingURL=lmtagfilespare.module.js.map
 
 /***/ }),
-/* 943 */,
 /* 944 */,
 /* 945 */,
 /* 946 */,
@@ -101229,7 +101228,8 @@ module.exports = _default;
 /* 1564 */,
 /* 1565 */,
 /* 1566 */,
-/* 1567 */
+/* 1567 */,
+/* 1568 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
