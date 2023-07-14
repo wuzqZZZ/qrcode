@@ -324,6 +324,7 @@ var ScannerPage = /** @class */ (function () {
      */
     ScannerPage.prototype.resolveQrCodeData = function (text) {
         var _this = this;
+        console.log("resolveQrCodeData  text => ", text);
         if (this.type === 'leasset') {
             var url = '/query/le/leAsset/findOne?id=' + text;
             this.httpService.get(url, null, function (res) {
@@ -554,7 +555,8 @@ var ScannerPage = /** @class */ (function () {
         //environment 表示后置摄像头  换成user则表示前置摄像头
         this.qrCode.start({ facingMode: "environment" } || {
             facingMode: { exact: "environment" },
-        }, { fps: 10, qrbox: 220 }, this.onScanSuccess, this.onScanFailure)
+        }, { fps: 10, qrbox: 220 }, // 设置每秒多少帧 , 设置取景范围
+        this.onScanSuccess, this.onScanFailure)
             .then(function () {
             // 插件启动成功
             _this.loading.dismiss();
@@ -570,18 +572,18 @@ var ScannerPage = /** @class */ (function () {
         });
     };
     ScannerPage.prototype.onScanSuccess = function (decodedText, decodedResult) {
-        console.log("onScanSuccess  decodedText, decodedResult => ", decodedText, decodedResult);
-        this.onScanStop();
+        console.log("onScanSuccess  decodedText => ", decodedText);
         if (decodedText != '' && decodedText != 'undefined') {
+            this.onScanStop();
             this.resolveQrCodeData(decodedText);
         }
-        else {
-            this.toastCtrl.create({
-                message: '二维码无数据,请重新扫描',
-                duration: 3000,
-                position: 'top'
-            }).present();
-        }
+        // else {
+        //   this.toastCtrl.create({
+        //     message: '二维码无数据,请重新扫描',
+        //     duration: 3000,
+        //     position: 'top'
+        //   }).present()
+        // }
     };
     ScannerPage.prototype.onScanFailure = function (error) {
         // console.log(`onScanFailure  error => `, error)
@@ -589,8 +591,7 @@ var ScannerPage = /** @class */ (function () {
     };
     ScannerPage.prototype.onScanStop = function () {
         var _this = this;
-        this.qrCode
-            .stop()
+        this.qrCode.stop()
             .then(function (ignore) {
             // QR Code scanning is stopped.
             console.log("QR Code scanning stopped.");
