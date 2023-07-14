@@ -572,8 +572,8 @@ var ScannerPage = /** @class */ (function () {
         });
     };
     ScannerPage.prototype.onScanSuccess = function (decodedText, decodedResult) {
-        console.log("onScanSuccess  decodedText => ", decodedText);
         if (decodedText != '' && decodedText != 'undefined') {
+            console.log("onScanSuccess  decodedText => ", decodedText);
             this.onScanStop();
             this.resolveQrCodeData(decodedText);
         }
@@ -589,6 +589,7 @@ var ScannerPage = /** @class */ (function () {
         console.log("onScanFailure  error => ", error);
     };
     ScannerPage.prototype.onScanStop = function () {
+        console.log("onScanStop");
         // this.qrCode.stop()
         //   .then((ignore) => {
         //     // QR Code scanning is stopped.

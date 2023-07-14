@@ -15,7 +15,7 @@ var SignaturePad = (function () {
         this.onEndEvent = new core_1.EventEmitter();
     }
     SignaturePad.prototype.ngAfterContentInit = function () {
-        var sp = __webpack_require__(1603).default;
+        var sp = __webpack_require__(1602).default;
         var canvas = this.elementRef.nativeElement.querySelector('canvas');
         if (this.options.canvasHeight) {
             canvas.height = this.options.canvasHeight;
@@ -134,7 +134,7 @@ exports.SignaturePad = SignaturePad;
 
 /***/ }),
 
-/***/ 1602:
+/***/ 1601:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -248,7 +248,7 @@ var SignaturepadPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 1603:
+/***/ 1602:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -859,7 +859,7 @@ SignaturePad.prototype.toData = function () {
 
 /***/ }),
 
-/***/ 1604:
+/***/ 1603:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -885,7 +885,7 @@ exports.SignaturePadModule = SignaturePadModule;
 
 /***/ }),
 
-/***/ 977:
+/***/ 976:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -893,8 +893,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SignaturepadPageModule", function() { return SignaturepadPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__signaturepad__ = __webpack_require__(1602);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angular2_signaturepad__ = __webpack_require__(1604);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__signaturepad__ = __webpack_require__(1601);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angular2_signaturepad__ = __webpack_require__(1603);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angular2_signaturepad___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_angular2_signaturepad__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
