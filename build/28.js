@@ -585,6 +585,7 @@ var ScannerPage = /** @class */ (function () {
     };
     ScannerPage.prototype.onScanFailure = function (error) {
         // console.log(`onScanFailure  error => `, error)
+        alert(JSON.stringify(error));
     };
     ScannerPage.prototype.onScanStop = function () {
         var _this = this;
@@ -602,7 +603,7 @@ var ScannerPage = /** @class */ (function () {
     };
     ScannerPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-scanner',template:/*ion-inline-start:"/Users/zhimu/Desktop/svn/nsdc/trunk/nsdcapp/src/pages/scanner/scanner.html"*/'\n\n<div>\n  <ion-icon name="close" style="font-size: 20px;margin-left:10px;top: 7%;left:7%;position: absolute;color: #fff;\n	z-index: 9;" (click)="back()"></ion-icon>\n</div>\n\n<!-- <div class="scan-content">\n  <div class="line"></div>\n  <div class="font" >将二维码/条码放入框内，可自动扫描</div>\n</div> -->\n\n<ng-template *ngIf="!isBrowser; else default">\n  <div class="scan-content">\n    <div class="line"></div>\n    <div class="font" >将二维码/条码放入框内，可自动扫描</div>\n  </div>\n  <div class="footer">\n    <div style="margin-top:30px;">\n      <img src="assets/imgs/scan/flashlight2.jpg" alt="" (click)="openlight()">\n      <div *ngIf="lightFlag==false" style="color:white;margin-top:10px;">打开手电筒</div>\n      <div *ngIf="lightFlag==true"  style="color:white;margin-top:10px;">关闭手电筒</div>\n    </div>\n  </div>\n</ng-template>\n<ng-template #default>\n  <div style="height: 100%;background-color: #000;">\n    <div id="reader" style="width: 100%;position: absolute;top: 25%;"></div>\n    <div style="position: relative;top: 29%;text-align: center;color: #fff;position: absolute;top: 65%;width: 100%;" >将二维码/条码放入框内，可自动扫描</div>\n  </div>\n</ng-template>\n'/*ion-inline-end:"/Users/zhimu/Desktop/svn/nsdc/trunk/nsdcapp/src/pages/scanner/scanner.html"*/,
+            selector: 'page-scanner',template:/*ion-inline-start:"/Users/zhimu/Desktop/svn/nsdc/trunk/nsdcapp/src/pages/scanner/scanner.html"*/'\n\n<div>\n  <ion-icon name="close" style="font-size: 20px;margin-left:10px;top: 7%;left:7%;position: absolute;color: #fff;\n	z-index: 9;" (click)="back()"></ion-icon>\n</div>\n\n<!-- <div class="scan-content">\n  <div class="line"></div>\n  <div class="font" >将二维码/条码放入框内，可自动扫描</div>\n</div> -->\n\n<ng-template *ngIf="!isBrowser; else default">\n  <div class="scan-content">\n    <div class="line"></div>\n    <div class="font" >将二维码/条码放入框内，可自动扫描</div>\n  </div>\n  <div class="footer">\n    <div style="margin-top:30px;">\n      <img src="assets/imgs/scan/flashlight2.jpg" alt="" (click)="openlight()">\n      <div *ngIf="lightFlag==false" style="color:white;margin-top:10px;">打开手电筒</div>\n      <div *ngIf="lightFlag==true"  style="color:white;margin-top:10px;">关闭手电筒</div>\n    </div>\n  </div>\n</ng-template>\n<ng-template #default>\n  <div style="height: 100%;background-color: #000;">\n    <div id="reader" style="width: 100%;"></div>\n    <div style="text-align: center;color: #fff;width: 100%;" >将二维码/条码放入框内，可自动扫描</div>\n  </div>\n</ng-template>\n'/*ion-inline-end:"/Users/zhimu/Desktop/svn/nsdc/trunk/nsdcapp/src/pages/scanner/scanner.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["o" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["p" /* NavParams */],

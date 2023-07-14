@@ -3948,7 +3948,8 @@ page-imdefectinfo .item-md.item-input.input-has-focus .item-inner {
   margin-top: 1px;
 }
 
-.content-md {
+.content-md,
+.content-ios {
   background: #f0f0f0 !important;
 }
 
